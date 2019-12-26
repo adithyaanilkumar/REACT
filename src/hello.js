@@ -4,7 +4,7 @@ import { useState } from 'react';
 
 import './App.css';
 
-class app extends Component{
+class Hello extends Component{
   state={
     persons: [
         {name:"adi", age:29},
@@ -37,4 +37,4 @@ render(){
   );
 }
 }
-export default app;
+export default Hello;
