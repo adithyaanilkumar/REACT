@@ -4,8 +4,8 @@ import { useState } from 'react';
 
 //import './App.css';
 
-const hello = () =>{
-  const stateArr[ ] = useState({
+const hello = (props) =>{
+  const stateArr [ personsState,setPersonsState ] = useState({
     persons: [
         {name:"adi", age:29},
         {name:"yo", age:56},
